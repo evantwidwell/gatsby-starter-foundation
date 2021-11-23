@@ -33,8 +33,8 @@ module.exports = {
       resolve: `gatsby-plugin-parsely-analytics`,
       options: {
         apikey: parselysupport.mystagingwebsite.com,
-        enableInDevelopment: false // send page views when NODE_ENV !== prod
-      }
+        enableInDevelopment: false
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
